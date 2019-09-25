@@ -6,5 +6,10 @@
   "repository": "https://github.com/elisaado/prostaatbot.git",
   "author": "Eli Saado <eli5saado@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
