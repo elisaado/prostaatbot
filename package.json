@@ -1,0 +1,10 @@
+{
+  "name": "prostaatbot",
+  "version": "1.0.0",
+  "description": "A modular, plugin-based Telegram bot.",
+  "main": "index.js",
+  "repository": "https://github.com/elisaado/prostaatbot.git",
+  "author": "Eli Saado <eli5saado@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
