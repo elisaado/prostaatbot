@@ -22,8 +22,12 @@ log("Bot API initialized!");
 
 // plguins
 log("Initializing plugins...");
+
 const Greetings = require("./plugins/greetings.js");
+const Ban = require("./plugins/ban.js");
+
 const greetings = new Greetings();
+const ban = new Ban();
 
 log("Plugins initialized!");
 
