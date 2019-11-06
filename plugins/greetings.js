@@ -27,7 +27,6 @@ class Greetings extends Plugin {
   // Says bye when they leave
   sayBye() {
     this.bot.on("message", msg => {
-      console.log(msg)
       if (msg.left_chat_member == null) return;
 
       const member = msg.left_chat_member;
